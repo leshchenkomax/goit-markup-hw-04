@@ -61,6 +61,11 @@ img {
 .contact-header {
   margin-left: auto;
 }
+.contact-icon {
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+}
 
 .link {
   font-weight: 500;
@@ -112,6 +117,8 @@ img {
 
 /* <!--contacts sections --> */
 .header-contact {
+  display: flex;
+  align-items: center;
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
@@ -120,6 +127,9 @@ img {
   color: #757575;
   text-decoration: none;
   margin-left: 50px;
+}
+.contact-icon {
+  fill: currentColor;
 }
 .header-sections {
   display: flex;
@@ -198,6 +208,9 @@ img {
 .hero-list {
   display: flex;
 }
+.hero-list .hero-item:not(last-child) {
+  margin-right: 30px;
+}
 .hero-item {
   font-style: normal;
   font-weight: bold;
@@ -217,6 +230,46 @@ img {
 }
 .hero {
   padding-top: 94px;
+}
+.icon-antenna {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 30px;
+  width: 270px;
+  height: 120px;
+  background-color: #f5f4fa;
+  border-radius: 4px;
+}
+.icon-clock {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 30px;
+  width: 270px;
+  height: 120px;
+  background-color: #f5f4fa;
+  border-radius: 4px;
+}
+.icon-diagram {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 30px;
+  width: 270px;
+  height: 120px;
+  background-color: #f5f4fa;
+  border-radius: 4px;
+}
+.icon-astronaut {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 30px;
+  width: 270px;
+  height: 120px;
+  background-color: #f5f4fa;
+  border-radius: 4px;
 }
 
 .work-title {
@@ -351,9 +404,7 @@ img {
 }
 .clients-link:focus,
 .clients-link:hover {
-  background-color: #2196f3;
-  color: #ffffff;
-  color: var(--hover-color);
+  border-color: #2196f3;
 }
 
 /* <!---------------------------footer section-----------------------------> */
@@ -487,4 +538,20 @@ img {
 }
 .header-portfolio {
   border-bottom: 1px solid #ececec;
+}
+.footer-social {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+.social-footer-list {
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  justify-items: left;
+  margin-top: 20px;
 }

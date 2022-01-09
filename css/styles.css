@@ -536,6 +536,12 @@ img {
   outline: 1px solid #eeeeee;
   margin-bottom: 30px;
 }
+.cardset-item-portfolio:focus,
+.cardset-item-portfolio:hover {
+  box-sizing: border-box;
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+    1px 4px 6px rgba(0, 0, 0, 0.16);
+}
 .header-portfolio {
   border-bottom: 1px solid #ececec;
 }
@@ -554,4 +560,35 @@ img {
   margin-right: auto;
   justify-items: left;
   margin-top: 20px;
+}
+.footer-right {
+  margin-left: 70px;
+  margin-top: -25px;
+}
+.footer-inner {
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.social-item {
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0.1);
+  color: #ffffff;
+}
+.social-link {
+  width: 44px;
+  height: 44px;
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+}
+.social-link:hover,
+.social-link:focus {
+  background-color: #2196f3;
+  color: #ffffff;
+}
+.social-icon {
+  fill: currentColor;
 }
